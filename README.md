@@ -18,7 +18,7 @@ A machine learning web application that predicts sleep disorders based on lifest
 - **Interactive Dashboard**: Visualizations and health metrics analysis
 - **Personalized Recommendations**: Actionable insights based on prediction results
 - **Model Interpretation**: Feature importance and SHAP analysis
-
+ 
 ## 📊 Model Performance
 
 - **Algorithm**: Random Forest Classifier
@@ -27,7 +27,16 @@ A machine learning web application that predicts sleep disorders based on lifest
 - **Classes**: None, Insomnia, Sleep Apnea
 
 ## 🛠️ Installation
-
+ sleep-disorder-predictor/
+├── sleep_health_app.py          # Main Streamlit application
+├── create_demo_model.py         # Demo model creation script
+├── requirements.txt             # Python dependencies
+├── best_sleep_disorder_model.pkl # Trained ML model (generated)
+├── model_interpretation_results.pkl # Model analysis results
+├── sleep_health_processed.csv   # Processed dataset
+├── README.md                    # Project documentation
+├── .gitignore                   # Git ignore rules
+└── LICENSE                      # MIT License
 ### Prerequisites
 - Python 3.8+
 - pip package manager
